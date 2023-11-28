@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
-import Provider from './components/Provider'
+import Provider from './components/Provider/Provider'
+import NewSchedule from './components/Provider/NewSchedule'
 import Client from './components/Client'
 
 import { createRoot } from 'react-dom/client'
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: 'provider',
     element: <Provider />,
+  },
+  {
+    path: 'provider/new_schedule',
+    element: <NewSchedule />,
   },
   {
     path: 'client',
