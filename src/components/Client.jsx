@@ -10,6 +10,7 @@ import RadioGroup from '@mui/material/RadioGroup'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import FormControl from '@mui/material/FormControl'
 import FormLabel from '@mui/material/FormLabel'
+import { Link } from 'react-router-dom'
 
 const AVAILABLE_TIMES = [
   '9:00 AM',
@@ -46,6 +47,11 @@ const Client = () => {
           See available times
         </Button>
       </Box>
+      <Button variant="text" classes="block">
+        <Link to="../" relative="path">
+          Back
+        </Link>
+      </Button>
     </div>
   )
 
