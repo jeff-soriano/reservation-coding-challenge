@@ -30,8 +30,8 @@ Tailwind CSS, Material UI, React Router
       - Intended functionality:
         - The ability to edit a schedule as opposed to create a whole new one
         - Ability to add multiple time slots per day
-        - Sorted days after selecting them (will appear in order days were selected)
-        - Ability to add off days which would show no available days even if there are available times there usually
+        - Sorted days after selecting them (days will appear in order they were selected)
+        - Ability to add off days which would show no available times for the client on that day even if there are available times there usually
         - Time inputs for time page, either a dropdown or string input which formats to time
 
 **Clients**
