@@ -22,11 +22,17 @@ Tailwind CSS, Material UI, React Router
 
 - Have a schedule
     - Completed, provider can view schedule and create new schedule
+ 
+      - <img width="344" alt="Screen Shot 2023-11-28 at 4 37 15 PM" src="https://github.com/jeff-soriano/reservation-coding-challenge/assets/5070227/2b1085ce-ceb9-410a-8e48-fe8d219c8e46">
+      - <img width="343" alt="Screen Shot 2023-11-28 at 4 37 27 PM" src="https://github.com/jeff-soriano/reservation-coding-challenge/assets/5070227/1f6bd06e-efea-468e-9257-78de61f893a1">
+      - <img width="353" alt="Screen Shot 2023-11-28 at 4 37 51 PM" src="https://github.com/jeff-soriano/reservation-coding-challenge/assets/5070227/25e22875-3c4b-4b5b-9d04-43a4a0dcdda3">
+
       - Intended functionality:
         - The ability to edit a schedule as opposed to create a whole new one
         - Ability to add multiple time slots per day
         - Sorted days after selecting them (will appear in order days were selected)
         - Ability to add off days which would show no available days even if there are available times there usually
+        - Time inputs for time page, either a dropdown or string input which formats to time
 
 **Clients**
 
