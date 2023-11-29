@@ -1,4 +1,5 @@
 import Button from '@mui/material/Button'
+import Box from '@mui/material/Box'
 import { Link } from 'react-router-dom'
 
 const SCHEDULE_EXAMPLE = [
@@ -47,9 +48,14 @@ const Provider = () => {
       {OFF_DAYS.map((day, index) => (
         <div>{day}</div>
       ))}
-      <Button variant="contained">
-        <Link className="block" to="new_schedule">
-          Create new schedule
+      <Box>
+        <Button variant="contained" classes="block">
+          <Link to="new_schedule">Create new schedule</Link>
+        </Button>
+      </Box>
+      <Button variant="text" classes="block">
+        <Link to="../" relative="path">
+          Back
         </Link>
       </Button>
     </div>
