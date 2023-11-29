@@ -1,6 +1,6 @@
 # Reservation - Frontend coding challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I did keep my development under 2 hours as requested by the challenge description. This left many features of the app partially or completely undeveloped, which I will explain below
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I did keep my development under 2 hours as requested by the challenge description. This left many features of the app partially or completely undeveloped, which I will explain below. I also focused more on functionality than styling, but time permitting I would have cleaned up the visuals and made this responsive. I did primarily view this in a mobile-sized browser tab as the instructions mentioned this was a mobile app.
 
 ### To start the app, run `npm start`
 
@@ -54,4 +54,5 @@ Tailwind CSS, Material UI, React Router
 - If this were a bigger project, I would have bootstrapped this with Next in order to take advantage of its features, such as routing
 - An actual reservation app would probably have some sort of log in page which would then take you to the appropriate client/provider page
 - Time permitting, I would have stored schedule data using the [React context api](https://react.dev/learn/passing-data-deeply-with-context) in order to see the data changes between client and provider
+
 
