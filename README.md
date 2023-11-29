@@ -49,4 +49,9 @@ Tailwind CSS, Material UI, React Router
   - <img width="352" alt="Screen Shot 2023-11-28 at 4 47 38 PM" src="https://github.com/jeff-soriano/reservation-coding-challenge/assets/5070227/300d8fc1-a501-45ef-bbbb-f6ab74839e27">
   - <img width="349" alt="Screen Shot 2023-11-28 at 4 47 57 PM" src="https://github.com/jeff-soriano/reservation-coding-challenge/assets/5070227/f20f1d43-f195-42ad-938d-0cbb4439ea9e">
 
+## Other Notes
+
+- If this were a bigger project, I would have bootstrapped this with Next in order to take advantage of its features, such as routing
+- An actual reservation app would probably have some sort of log in page which would then take you to the appropriate client/provider page
+- Time permitting, I would have stored schedule data using the [React context api](https://react.dev/learn/passing-data-deeply-with-context) in order to see the data changes between client and provider
 
