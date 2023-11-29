@@ -3,6 +3,7 @@ import './index.css'
 import Provider from './components/Provider/Provider'
 import NewSchedule from './components/Provider/NewSchedule'
 import Client from './components/Client'
+import Button from '@mui/material/Button'
 
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom'
@@ -11,14 +12,18 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: (
-      <div>
-        <h1>Henry Meds Reservation App</h1>
-        <Link className="block" to="provider">
-          I am a provider
-        </Link>
-        <Link className="block" to="client">
-          I am a client
-        </Link>
+      <div className="flex flex-col	content-center justify-center text-center	">
+        <h1 className="text-lg font-bold mt-8">Henry Meds Reservation App</h1>
+        <Button variant="contained" sx={{ marginTop: '8px' }}>
+          <Link className="block" to="provider">
+            I am a provider
+          </Link>
+        </Button>
+        <Button variant="contained" sx={{ marginTop: '8px' }}>
+          <Link className="block" to="client">
+            I am a client
+          </Link>
+        </Button>
       </div>
     ),
   },
