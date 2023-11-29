@@ -15,12 +15,12 @@ const router = createBrowserRouter([
       <div className="flex flex-col	content-center justify-center text-center	">
         <h1 className="text-lg font-bold mt-8">Henry Meds Reservation App</h1>
         <Button variant="contained" sx={{ marginTop: '8px' }}>
-          <Link className="block" to="provider">
+          <Link className="w-full" to="provider">
             I am a provider
           </Link>
         </Button>
         <Button variant="contained" sx={{ marginTop: '8px' }}>
-          <Link className="block" to="client">
+          <Link className="w-full" to="client">
             I am a client
           </Link>
         </Button>
