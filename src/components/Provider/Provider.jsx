@@ -36,7 +36,7 @@ const Provider = () => {
             <div>{day.day}</div>
             {day.hours.map((hour, index) => {
               return (
-                <div>
+                <div key={index}>
                   {hour.start} to {hour.end}
                 </div>
               )
@@ -46,14 +46,14 @@ const Provider = () => {
       })}
       <div className="font-bold	">Off days:</div>
       {OFF_DAYS.map((day, index) => (
-        <div>{day}</div>
+        <div key={index}>{day}</div>
       ))}
       <Box>
-        <Button variant="contained" classes="block">
+        <Button variant="contained">
           <Link to="new_schedule">Create new schedule</Link>
         </Button>
       </Box>
-      <Button variant="text" classes="block">
+      <Button variant="text">
         <Link to="../" relative="path">
           Back
         </Link>

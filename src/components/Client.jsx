@@ -41,13 +41,12 @@ const Client = () => {
       <Box>
         <Button
           variant="contained"
-          classes="block"
           onClick={() => setSelectingDate(!selectingDate)}
         >
           See available times
         </Button>
       </Box>
-      <Button variant="text" classes="block">
+      <Button variant="text">
         <Link to="../" relative="path">
           Back
         </Link>
@@ -75,7 +74,6 @@ const Client = () => {
       </RadioGroup>
       <Button
         variant="contained"
-        classes="block"
         onClick={() => setSelectingDate(!selectingDate)}
       >
         Submit
